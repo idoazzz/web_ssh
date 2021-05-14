@@ -18,7 +18,7 @@
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "ansi_up": "^4.0.3",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "css-loader": "^2.1.1",
     "has-binary2": "^1.0.3",
