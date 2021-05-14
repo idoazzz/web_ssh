@@ -1,11 +1,12 @@
-**Web SSH Terminals Architecture** <br/> 
+# Web-SSH Architecture 
 ![webssh (3)](https://user-images.githubusercontent.com/49838106/118291923-c8d4df00-b4e0-11eb-844c-d7fbbdf9bd57.png)
 
 
-**Services Roles**
+## Services Roles
 * **Session Proxy** <br/> Receiving all the sessions commands messages and return the outputs.<br/> Responsible for initialize each session environment. <br/>
-* **Queues** <br/> __STDOUT Queue__ Receiving STDOUT of the SSH Shell process and pass it back to Session Proxy service (and to the client). <br/> 
-__Commands Queue__ Receiving commands from clients and pass them into SSH Runner consumer. <br/> 
+* **Queues** <br/> 
+   - __STDOUT Queue__ Receiving STDOUT of the SSH Shell process and pass it back to Session Proxy service (and to the client). <br/> 
+   - __Commands Queue__ Receiving commands from clients and pass them into SSH Runner consumer. <br/> 
 * **SSH Runner** <br/>Runs each SSH Session as a sub-process. <br/>Fetching (Sampeling) the STDOUT of each process and pass it into the Queue. <br/> Rececing the commands and send them into the STDIN of each process.  <br/> 
 <br/>
 
