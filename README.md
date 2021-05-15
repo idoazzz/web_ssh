@@ -1,3 +1,9 @@
+# What is Web-SSH? 
+* Web-SSH is web application of SSH client. <br/>
+You can connect your remote PC through SSH within a browser. <br/>
+* Another usage is interactive remote shell sessions with several other users on the same PC.<br/> It's super cool use case since you can debug a remote machine with several people (Only send a session link!).
+
+
 # Web-SSH Architecture 
 ![webssh (3)](https://user-images.githubusercontent.com/49838106/118291923-c8d4df00-b4e0-11eb-844c-d7fbbdf9bd57.png)
 
