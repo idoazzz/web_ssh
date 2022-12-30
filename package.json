@@ -7,12 +7,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.1.2",
+    "@babel/core": "^7.20.7",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.4",
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2",
+    "babel-loader": "^8.3.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
     "socket.io-client": "latest"
   },
   "dependencies": {
@@ -20,7 +20,7 @@
     "ansi_up": "^4.0.3",
     "axios": "^0.18.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
-    "css-loader": "^2.1.1",
+    "css-loader": "^6.7.3",
     "has-binary2": "^1.0.3",
     "html-entities": "^1.2.1",
     "npm": "^6.9.0",
@@ -30,6 +30,6 @@
     "socket.io-client": "latest",
     "socketio": "^1.0.0",
     "strip-ansi": "^5.2.0",
-    "style-loader": "^0.23.1"
+    "style-loader": "^3.3.1"
   }
 }
