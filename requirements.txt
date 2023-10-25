@@ -16,4 +16,4 @@ python-engineio==3.9.1
 python-socketio==4.3.0
 PyYAML==5.1.2
 six==1.12.0
-Werkzeug==0.15.5
+Werkzeug==3.0.1
